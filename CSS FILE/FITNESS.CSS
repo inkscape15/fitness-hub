@@ -1,0 +1,47 @@
+h1{
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%
+
+}
+
+body{
+    background-image:url("../khams images/MuscleDisorders_share.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid;
+  }
+  li a{
+    float: right;
+  }
+  
+  li a {
+    display: flexbox;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+ 
