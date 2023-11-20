@@ -3,24 +3,21 @@ h1{
   font-size: 250%;
     color:black;
     display: flex;
+    text-align: center;
     
-}
-
+  }
 body{
-    background: black;
-}
-ul{
-    position:right;
-    top: 0;
-    width: 50%;
+    background:black
+  }
 
-}
 ul {
+
+    width: 70%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: visible;
-    background-color: #333;
+    
   }
   
   li {
@@ -30,38 +27,38 @@ ul {
 
   li a{
     float: right;
+    border-right: 1px;
+  
   }
   
   li a {
-    display: flexbox;
-    color: white;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #333;
     
 
     
   }
-  .square5{
-    background:green;
+  .square5 {
+    background:rgb(32, 227, 32);
     flex-basis: 450px;
     width: 100px;
     height: 100px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
+    display: flex;
+    justify-content:bottom;
+    margin-top: 2%;
     border-radius: 20px;
-    box-shadow: white;
+    
   }
   .container{
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 
   }
   
