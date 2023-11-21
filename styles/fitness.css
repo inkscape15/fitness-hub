@@ -2,12 +2,11 @@ h1{
   font-style: italic;
   font-size: 250%;
     color:black;
-    display: flex;
     text-align: center;
     
   }
 body{
-    background:black
+    background-color: black;
   }
 
 ul {
@@ -50,9 +49,9 @@ ul {
     width: 100px;
     height: 100px;
     display: flex;
-    justify-content:bottom;
     margin-top: 2%;
     border-radius: 20px;
+    align-items: center;
     
   }
   .container{
@@ -61,4 +60,11 @@ ul {
     justify-content: right;
 
   }
-  
+  .why{
+    display: block;
+    background: url("../khams images/why.jpg");
+    overflow: visible;
+    padding: 20%;
+    background-repeat: no-repeat;
+
+  }
